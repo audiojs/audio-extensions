@@ -15,6 +15,3 @@ it('should contain only strings', function () {
 		return typeof val === 'string';
 	}).length, audioExtensions.length );
 });
-
-
-
