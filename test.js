@@ -7,13 +7,13 @@ it('should be an array', function () {
 });
 
 it('should be more than 1 length', function () {
-    assert.deepEqual(audioExtensions.length > 1, true );
+	assert.deepEqual(audioExtensions.length > 1, true );
 });
 
 it('should contain only strings', function () {
-    assert.deepEqual(audioExtensions.filter(function (val) {
-        return typeof val === 'string';
-    }).length, audioExtensions.length );
+	assert.deepEqual(audioExtensions.filter(function (val) {
+		return typeof val === 'string';
+	}).length, audioExtensions.length );
 });
 
 
